@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Noto+Serif+Khojki&display=swap');
+
 
 *{
-    font-family: 'Finger-paint', sans-serif;
+    font-family: Noto Serif Khojki, sans-serif;
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -20,4 +21,25 @@ ul{
     padding: 0 190px;
     background-color: #b14cb1;
     height: 90vh;
+    
+}
+
+.title-text{
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    padding: 22px 0 52px 0;
+    color: azure;
+    font-family: Finger paint, sans-serif;
+}
+
+.text-start{
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: black;
+}
+
+.start{
+    padding-top: 30px;
+    text-align: center;
 }
