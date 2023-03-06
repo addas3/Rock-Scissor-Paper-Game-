@@ -20,7 +20,7 @@ ul{
 .body{
     padding: 0 190px;
     background-color: #b14cb1;
-    height: 90vh;
+    height: 100vh;
     
 }
 
@@ -37,6 +37,7 @@ ul{
     letter-spacing: 3px;
     font-size: 40px;
     color: black;
+    padding-right: 50px;
 }
 
 .start{
@@ -51,12 +52,14 @@ ul{
     justify-content: center;
     padding-bottom: 60px;
     font-size: 50px;
+    padding-right: 50px;
 }
 
 .section-aginst{
     justify-content: space-around;
     display: flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 .player{
@@ -107,4 +110,36 @@ ul{
     text-shadow: 6px 6px 0px #0000006c;
 }
 
+.button-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.button-options li{
+    padding: 0 25px;
+    display: inline;
+}
+
+.rules-button{
+    border-radius: 7px;
+    padding: 11px 42px;
+    border: 3px solid rgb(127, 255, 159) ;
+    color: rgb(127, 255, 159);
+}
+
+.restart-button{
+    border-radius: 7px;
+    padding: 11px 42px;
+    border: 3px solid rgb(127, 255, 159) ;
+    color: rgb(127, 255, 159);
+    
+}
+
+.rules-button:hover , .restart-button:hover{
+    color: black;
+    background-color: rgb(127, 255, 159);
+    text-transform: uppercase;
+}
 
