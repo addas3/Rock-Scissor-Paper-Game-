@@ -43,3 +43,40 @@ ul{
     padding-top: 30px;
     text-align: center;
 }
+
+.result-text{
+    color: azure;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    font-size: 50px;
+}
+
+.section-aginst{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.player{
+    font-weight: 650;
+    letter-spacing: 3;
+    color: azure;
+    font-size: 35px;
+
+}
+
+.button-aginst{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    text-shadow: 7px 7px 9px #0000006c;
+    background-color: rgb(127, 255, 159);
+    width: 160px;
+    height: 160px;
+    border: 9px solid  azure;
+    border-radius: 30px;
+    font-size: 50px;
+}
