@@ -69,4 +69,5 @@ function restart(){
 // below restart function
 function rules(){
     alert("The Rules are simple for winning. The Scissors wins against The Paper, The Rock wins against The Scissors, and The Paper wins against The Rock.")
+    
 }
