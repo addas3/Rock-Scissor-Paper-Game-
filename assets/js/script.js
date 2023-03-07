@@ -1,73 +1,73 @@
 // game variables
-var choices = ["rock", "scissor", "paper"]
+var choices = ["rock", "scissor", "paper"];
 // here we get random number between 0-2
-var randNum = Math.round(Math.random()*2)
+var randNum = Math.round(Math.random()*2);
 
 
-var pointsMe = 0
-var pointsComp = 0
+var pointsMe = 0;
+var pointsComp = 0;
 
-var choiceComp = choices[randNum]
+var choiceComp = choices[randNum];
 
 //Below will take care of the computer and my score and update it.
 function score(){
-    document.querySelector(".result-user").innerHTML = pointsMe
-    document.querySelector(".result-comp").innerHTML = pointsComp
+    document.querySelector(".result-user").innerHTML = pointsMe;
+    document.querySelector(".result-comp").innerHTML = pointsComp;
 }
 
 function elementIcon(object){
     if(object === 'rock'){
-        return '✊'
+        return '✊';
     }
     else if(object === 'paper'){
-        return '✋'
+        return '✋';
     }
     else{
-        return '✌️'
+        return '✌️';
     }
 
 }
 
 function restartComp(){
-    randNum = Math.round(Math.random()*2)
-    choiceComp = choices[randNum]
+    randNum = Math.round(Math.random()*2);
+    choiceComp = choices[randNum];
 }
 
 function game(choiceMe){
-    document.querySelector("#choice-me").innerHTML = elementIcon(choiceMe)
-    document.querySelector("#choice-comp").innerHTML = elementIcon(choiceComp)
+    document.querySelector("#choice-me").innerHTML = elementIcon(choiceMe);
+    document.querySelector("#choice-comp").innerHTML = elementIcon(choiceComp);
 
     if(choiceMe === 'paper' && choiceComp === 'rock' || choiceMe === 'rock' && choiceComp === 'scissor' || choiceMe === 'scissor' && choiceComp === 'paper'){
-        pointsMe++
-        score()
-        document.querySelector(".text-start").innerHTML = "You Win!"
+        pointsMe++;
+        score();
+        document.querySelector(".text-start").innerHTML = "You Win!";
     }
     
     else if(choiceMe === choiceComp){
-        score()
-        document.querySelector(".text-start").innerHTML = "It's a tie."
+        score();
+        document.querySelector(".text-start").innerHTML = "It's a tie.";
     }
 
     else{
-        pointsComp++
-        score()
-        document.querySelector(".text-start").innerHTML = "Computer Wins!"
+        pointsComp++;
+        score();
+        document.querySelector(".text-start").innerHTML = "Computer Wins!";
     }
 
     // restart
-    restartComp()
+    restartComp();
 
 }
 
 // below restart function
 function restart(){
-    pointsMe = 0
-    pointsComp = 0
-    score()
+    pointsMe = 0;
+    pointsComp = 0;
+    score();
 }
 
 // below restart function
 function rules(){
-    alert("The Rules are simple for winning. The Scissors wins against The Paper, The Rock wins against The Scissors, and The Paper wins against The Rock.")
+    alert("The Rules are simple for winning. The Scissors wins against The Paper, The Rock wins against The Scissors, and The Paper wins against The Rock.");
     
 }
