@@ -144,7 +144,7 @@ ul{
 /* Media queries */
 
 
-/* For larger to medium screens size from 1670px wide and down */
+/* For larger to medium screens size from 390px wide and down */
 
 
 @media screen and (max-width: 390px) {
@@ -166,8 +166,6 @@ ul{
     .section-aginst{
         padding-left: 20px;
     }
-
-
 
 
 }
