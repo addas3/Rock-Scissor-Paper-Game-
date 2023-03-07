@@ -122,14 +122,15 @@ ul{
     border-radius: 7px;
     padding: 11px 42px;
     border: 3px solid rgb(127, 255, 159) ;
-    color: rgb(127, 255, 159);
+    color:black
+    
 }
 
 .restart-button{
     border-radius: 7px;
     padding: 11px 42px;
     border: 3px solid rgb(127, 255, 159) ;
-    color: rgb(127, 255, 159);
+    color: black
     
 }
 
