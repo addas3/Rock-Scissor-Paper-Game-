@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    background-color: #b14cb1;
 
 }
 
@@ -17,12 +18,7 @@ ul{
     list-style: none;
 }
 
-.body{
-    padding: 0 190px;
-    background-color: #b14cb1;
-    height: 100vh;
-    
-}
+
 
 .title-text{
     text-transform: uppercase;
@@ -143,3 +139,35 @@ ul{
     text-transform: uppercase;
 }
 
+
+
+/* Media queries */
+
+
+/* For larger to medium screens size from 1670px wide and down */
+
+
+@media screen and (max-width: 390px) {
+     
+    .player {
+        font-size: 70%;
+       
+        
+    }
+
+    .button-aginst{
+        width: 100px;
+        height: 100px;
+        border: 9px solid  azure;
+        border-radius: 30px;
+        font-size: 30px;
+    }
+
+    .section-aginst{
+        padding-left: 20px;
+    }
+
+
+
+
+}
