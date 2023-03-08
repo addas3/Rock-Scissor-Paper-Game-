@@ -214,11 +214,11 @@ The project will now of been cloned on your local machine for use.
 
 ### Content
 
-* [Styling Navigation border](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
-    * I got code help from about website to do the border style for navigation links
+* [Making Space]( https://mailtrap.io/blog/nbsp/)
+    * I got to know how to make space by using (&nbsp) in HTML.
 
-* [Allining image and text](https://www.youtube.com/watch?v=QlHyLKAKceM)
-    * Watched the video and got better understanding on how to use the flex code.
+
+* Inspired some of the codes from Love Project Math.
 
 ### Media
 
