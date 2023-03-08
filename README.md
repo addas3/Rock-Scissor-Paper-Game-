@@ -1,108 +1,226 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Scissor Paper Game
 
-Welcome addas3,
+Rock Scissor Paper Game is a well known game that all people knows about it. The website challange people to dsicover the game and challange them also to beat the computer. In addition, the website aim to make sure users enjoy there time and to let them use their brain. View the live site [here](https://addas3.github.io/Rock-Scissor-Paper-Game-/#)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup](docs/readme_images/mockup.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features 
 
-## Gitpod Reminders
+### Title Text
+* Head Text
+    * The concept is to give the user a full understanging of whats the website is about. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Title Text](docs/readme_images/title_text.jpg)
 
-`python3 -m http.server`
+### Landing Page
+* Landing page image
+    * This section shows most of the function that the user will have. 
+    * This section give the user direct idea of wha the website about.    
 
-A blue button should appear to click: _Make Public_,
+ ![Landing Page Image](docs/readme_images/landing_page_image.jpg)
+* Start and Result Text
+    * Here there is information on the result the user and the computer will get for each round.
+    * This section will help the user to get better knowledge about the result. 
 
-Another blue button should appear to click: _Open Browser_.
+![Start and Result Text](docs/readme_images/text_start_result.jpg)  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Section Aginst
+    * Section aginst is there to help the user to see the option choisen and what the computer choose at the same time.
+    * Section aginst will help users to keep track on choices.
 
-A blue button should appear to click: _Make Public_,
+![Section Aginst](docs/readme_images/section_aginst.jpg)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Section Options
+    * Here user can see thre different emoji where he/she can slect from.
+    * Once the user select the prefered emoji it will reflect directly to the section aginst section also.
+    * The user will get the result if he/she wins, loses aginst the computer or if its a tie.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Section Options](docs/readme_images/section_options.jpg)
+* Rules Button
+    * This button is designed to inform the user on how the game works.
+    * Once the button clicked the user will get message as the image shows below.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Rules Button](docs/readme_images/rules_button.jpg)
 
-------
+![Rules Button Alert](docs/readme_images/rules_button_alert.jpg)
+* Restart Button
+    * HThis button will let the user start the game from the begining.
+    
 
-## Release History
+![Restart Button](docs/readme_images/restart_button.jpg)    
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Existing Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Responsive design
+* Functions that reflect the live game
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Features Left to Implement
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* Building feedback section for the users.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* JavaScript
+    * The Website was animated using custom JS in an external file.    
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Responsiveness
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Steps to test:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. Open browser and navigate to [Rock Scissor Paper Game](https://addas3.github.io/Rock-Scissor-Paper-Game-/#)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
 
-## FAQ about the uptime script
+### Accessibility
 
-**Why have you added this script?**
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Testing was focused to ensure the following criteria were met:
 
-**How will this affect me?**
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Lighthouse Testing
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* For Desktop
 
-**So….?**
+![Desktop](docs/testing/desktop_lighthouse.jpg)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* For Mobile
 
-**Can I opt out?**
+![Mobile](docs/testing/mobile_lighthouse.jpg)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+### Functional Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+**Game Testing**
+
+* Tried to click on the rock and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
+* Tried to click on the paper and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
+* Tried to click on the scissor and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
+
+
+
+**Rules and Restart buttons**
+
+* Testing was performed on the rules button and it returend with alreat text explainging the rules of the game as expected.
+
+* Testing was performed on the restart button and it worked as expected to start the game from over
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org) 
+
+![Contact HTML Validator Results](docs/testing/index_validator.jpg)
+
+
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![CSS Validator Results](docs/testing/css_validator.jpg)
+
+- JS
+  - No errors were found when passing through the official [(Jshint) validator](https://jshint.com/)
+  - The following metrics were returned:
+  
+
+![JS Validator Results](docs/testing/js_validator.jpg)
+
+### Bugs
+
+  - The backgrounf color was not full on all the page as i wrote the code in the body instead of * which target all the page.
+  - Color contrast for the rest and the rule button was not as expected so I changed it to better one.
+  - Buttion id rock was dublicated so I fixed it with the coreect input.
+  
+
+## Deployment
+
+### Version Control
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://addas3.github.io/Rock-Scissor-Paper-Game-/#
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Credits 
+
+### Content
+
+* [Styling Navigation border](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
+    * I got code help from about website to do the border style for navigation links
+
+* [Allining image and text](https://www.youtube.com/watch?v=QlHyLKAKceM)
+    * Watched the video and got better understanding on how to use the flex code.
+
+### Media
+
+* [All Emoji](https://emojiclipboard.com/category/hands/)
+    * All emoji were taken from above website. 
