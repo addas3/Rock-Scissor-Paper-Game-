@@ -1,5 +1,5 @@
 // game variables
-var choices = ["rock", "scissor", "paper"];
+var choices = ["rock", "scissors", "paper"];
 // here we get random number between 0-2
 var randNum = Math.round(Math.random()*2);
 
