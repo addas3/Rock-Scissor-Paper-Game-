@@ -37,7 +37,7 @@ function game(choiceMe){
     document.querySelector("#choice-me").innerHTML = elementIcon(choiceMe);
     document.querySelector("#choice-comp").innerHTML = elementIcon(choiceComp);
 
-    if(choiceMe === 'paper' && choiceComp === 'rock' || choiceMe === 'rock' && choiceComp === 'scissor' || choiceMe === 'scissor' && choiceComp === 'paper'){
+    if((choiceMe === 'paper' && choiceComp === 'rock') || (choiceMe === 'rock' && choiceComp === 'scissors') || (choiceMe === 'scissors' && choiceComp === 'paper')){
         pointsMe++;
         score();
         document.querySelector(".text-start").innerHTML = "You Win!";
