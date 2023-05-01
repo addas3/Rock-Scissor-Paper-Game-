@@ -163,6 +163,13 @@ ul{
    
 }
 
+.restart-button:hover{
+    color: black;
+    background-color: rgb(127, 255, 159);
+    text-transform: uppercase;
+}
+
+
 
 .footer {
     margin-top: 30px;
