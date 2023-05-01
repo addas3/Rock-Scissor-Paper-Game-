@@ -206,12 +206,12 @@ ul{
   
     .text-start {
       font-size: 20px;
-      padding-right: 20px;
+      padding-right: unset;
     }
   
     .result-text {
       font-size: 30px;
-      padding-right: 20px;
+      padding-right: unset;
     }
   
     .player {
@@ -256,12 +256,12 @@ ul{
   
     .text-start {
       font-size: 30px;
-      padding-right: 30px;
+      padding-right: unset;
     }
   
     .result-text {
       font-size: 40px;
-      padding-right: 30px;
+      padding-right: unset;
     }
   
     .player {
@@ -305,12 +305,12 @@ ul{
   
     .text-start {
       font-size: 40px;
-      padding-right: 50px;
+      padding-right: unset;
     }
   
     .result-text {
       font-size: 50px;
-      padding-right: 50px;
+      padding-right: unset;
     }
   
     .player {
