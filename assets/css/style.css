@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Noto+Serif+Khojki&display=swap');
 
 
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,13 +21,17 @@ body {
     background-color: #f5f5f5;
 }
 
+
 a{
     text-decoration: none;
 }
 
+
 ul{
     list-style: none;
 }
+
+
 
 
 .title-text{
@@ -34,9 +41,10 @@ ul{
     padding: 22px 0 52px 0;
     color: #3d3d3d;
     font-family: Finger paint, sans-serif;
-    
-    
+   
+   
 }
+
 
 .text-start{
     letter-spacing: 3px;
@@ -45,10 +53,12 @@ ul{
     padding-right: 50px;
 }
 
+
 .start{
     padding-top: 10px;
     text-align: center;
 }
+
 
 .result-text{
     color: #3d3d3d;
@@ -60,6 +70,7 @@ ul{
     padding-right: 50px;
 }
 
+
 .section-aginst{
     justify-content: space-around;
     display: flex;
@@ -67,13 +78,16 @@ ul{
     padding-left: 50px;
 }
 
+
 .player{
     font-weight: 650;
     letter-spacing: 3px;
     color: #3d3d3d;
     font-size: 35px;
 
+
 }
+
 
 .button-aginst{
     display: flex;
@@ -89,19 +103,23 @@ ul{
     font-size: 50px;
 }
 
+
 .choices-option{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    margin-left: -80px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .icon-rpsg{
     padding: 0 35px;
     display: inline;
-    
+   
 }
+
 
 .icon-rpsg button{
     border: none;
@@ -111,10 +129,12 @@ ul{
     font-size: 50px;
 }
 
+
 .icon-rpsg button:hover{
     transform: scale(1.1);
     text-shadow: 6px 6px 0px #0000006c;
 }
+
 
 .button-options{
     display: flex;
@@ -122,8 +142,10 @@ ul{
     justify-content: center;
     padding-top: 10px;
     margin-top: 10px;
-    margin-left: -80px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .button-options li{
     padding: 0 25px;
@@ -131,13 +153,16 @@ ul{
 }
 
 
+
+
 .restart-button{
     border-radius: 7px;
     padding: 11px 42px;
     border: 3px solid #a7b6c2;
     color: #3d3d3d
-    
+   
 }
+
 
 .footer {
     margin-top: 30px;
@@ -145,12 +170,14 @@ ul{
     background-color: #f5f5f5;
     padding: 20px;
     color: #3d3d3d;
-    margin-left: -80px; 
+    margin-left: -80px;
 }
+
 
 .footer h2 {
     margin-top: 10px;
 }
+
 
 .footer p {
     margin-bottom: 20px;
@@ -158,153 +185,158 @@ ul{
 /* Media queries */
 
 
+
+
 /* For larger to medium screens size from 390px wide and down */
 
-/* for screens smaller than 768px */
-@media (max-width: 767px) {
 
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
     .title-text {
-        font-size: 60px;
-        padding: 12px 0 32px 0;
+      font-size: 40px;
+      padding: 10px 0 30px 0;
     }
-
+  
     .text-start {
-        font-size: 30px;
-        padding-right: 20px;
+      font-size: 20px;
+      padding-right: 20px;
     }
-
+  
     .result-text {
-        font-size: 40px;
-        padding-right: 20px;
+      font-size: 30px;
+      padding-right: 20px;
     }
-
-    .section-aginst {
-        padding-left: 20px;
-    }
-
+  
     .player {
-        font-size: 23px;
+      font-size: 15px;
     }
-
+  
     .button-aginst {
-        width: 120px;
-        height: 120px;
-        border-width: 6px;
-        font-size: 35px;
+      width: 90px;
+      height: 90px;
+      font-size: 30px;
+      border-width: 5px;
     }
-
+  
+    .icon-rpsg {
+      padding: 0 20px;
+    }
+  
     .icon-rpsg button {
-        font-size: 40px;
+      font-size: 30px;
     }
-
+  
     .button-options li {
-        padding: 0 15px
+      padding: 0 10px;
     }
-
+  
     .restart-button {
-        padding: 9px 32px;
-        font-size: 20px;
-    }
-}
-
-/* for screens between 768px and 1024px */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .title-text {
-        font-size: 70px;
-        padding: 16px 0 42px 0;
-    }
-
-    .text-start {
-        font-size: 35px;
-        padding-right: 30px;
-    }
-
-    .result-text {
-        font-size: 45px;
-        padding-right: 30px;
-    }
-
-    .section-aginst {
-        padding-left: 30px;
-    }
-
-    .player {
-        font-size: 30px;
-    }
-
-    .button-aginst {
-        width: 140px;
-        height: 140px;
-        border-width: 8px;
-        font-size: 40px;
-    }
-
-    .icon-rpsg button {
-        font-size: 45px;
-    }
-
-    .button-options li {
-        padding: 0 20px
-    }
-
-    .restart-button {
-        padding: 10px 37px;
-        font-size: 25px;
-    }
-
-}
-
-/* for screens larger than 1024px */
-@media (max-width: 1025px) {
-
-    .title-text {
-        font-size: 80px;
-        padding: 22px 0 52px 0;
-    }
-
-    .text-start {
-        font-size: 40px;
-        padding-right: 50px;
-    }
-
-    .result-text {
-        font-size: 50px;
-        padding-right: 50px;
-    }
-
-    .section-aginst {
-        padding-left: 50px;
-    }
-
-    .player {
-        font-size: 35px;
-    }
-
-    .button-aginst {
-        width: 160px;
-        height: 160px;
-        border-width: 9px;
-        font-size: 50px;
-    }
-
-    .icon-rpsg button {
-        font-size: 50px;
-    }
-
-    .button-options li {
-        padding: 0 25px
-    }
-
-    .restart-button {
-        padding: 11px 42px;
-        font-size: 30px;
+      padding: 7px 30px;
     }
 
     .footer {
-        margin-left: -80px;
+        margin-left: 0;
+        font-size: 12px;
+      }
+  }
+  
+  /* For screens between 600px and 900px */
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+    .title-text {
+      font-size: 60px;
+      padding: 15px 0 40px 0;
     }
-}
+  
+    .text-start {
+      font-size: 30px;
+      padding-right: 30px;
+    }
+  
+    .result-text {
+      font-size: 40px;
+      padding-right: 30px;
+    }
+  
+    .player {
+      font-size: 30px;
+    }
+  
+    .button-aginst {
+      width: 120px;
+      height: 120px;
+      font-size: 40px;
+      border-width: 7px;
+    }
+  
+    .icon-rpsg {
+      padding: 0 25px;
+    }
+  
+    .icon-rpsg button {
+      font-size: 40px;
+    }
+  
+    .button-options li {
+      padding: 0 20px;
+    }
+  
+    .restart-button {
+      padding: 9px 36px;
+    }
 
+    .footer {
+        margin-left: 0;
+      }
+  }
+  
+  /* For screens larger than 900px */
+  @media only screen and (min-width: 900px) {
+    .title-text {
+      font-size: 80px;
+      padding: 22px 0 52px 0;
+    }
+  
+    .text-start {
+      font-size: 40px;
+      padding-right: 50px;
+    }
+  
+    .result-text {
+      font-size: 50px;
+      padding-right: 50px;
+    }
+  
+    .player {
+      font-size: 35px;
+    }
+  
+    .button-aginst {
+      width: 160px;
+      height: 160px;
+      font-size: 50px;
+      border-width: 9px;
+    }
+  
+    .icon-rpsg {
+      padding: 0 35px;
+    }
+  
+    .icon-rpsg button {
+      font-size: 50px;
+    }
+  
+    .button-options li {
+      padding: 0 25px;
+    }
+  
+    .restart-button {
+      padding: 11px 42px;
+    }
 
-
-
+    .footer {
+        margin-left: 0;
+      }
+  }
+  
+  
+  
