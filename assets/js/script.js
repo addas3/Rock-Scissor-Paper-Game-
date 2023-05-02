@@ -12,7 +12,7 @@ function updateScore(){
     document.querySelector(".result-comp").innerHTML = compScore;
 }
 
-// function to get the element icon
+// function to get the element icon for a given choice
 function elementIcon(object){
     if(object === 'rock'){
         return '✊';
@@ -33,6 +33,7 @@ function getComputerChoice(){
     return choices[randNum];
 }
 
+// function to play the game with the user's choice
 function game(choiceMe){
     var choiceComp = getComputerChoice();
     document.querySelector("#choice-me").innerHTML = elementIcon(choiceMe);
@@ -52,7 +53,7 @@ function game(choiceMe){
     }
 }
 
-// below restart function
+// function to restart the game
 function restart(){
     userScore = 0;
     compScore = 0;
