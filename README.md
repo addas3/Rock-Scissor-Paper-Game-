@@ -234,6 +234,8 @@ Manual tests were also performed to ensure the website was accessible as possibl
   - When I reset the game it was not resetting the result, emoji status and the text for start, so I fixed that by updating the rest 
     function in Java Script.
   - When user tries to navigate to other page it was naviagting to nothing, so I created 404.html to fix this issue.
+  - When checking th Java Script code in jshint.com it was showing two unused variables the game and the restart, fixed it by calling the game and the restart functions when the users clicks on one of them. 
+  - When checking th Java Script code in jshint.com I got comment saying 30	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz), I fixed it by adding comment at the beginning of the file indicating that I am using ES6 syntax.
 
 
   
@@ -282,11 +284,14 @@ The project will now of been cloned on your local machine for use.
 * [Making Space](https://mailtrap.io/blog/nbsp/)
     * I got to know how to make space by using (&nbsp) in HTML.
 
-* [favicon](https://www.w3schools.com/html/html_favicon.asp)
+* [Favicon](https://www.w3schools.com/html/html_favicon.asp)
     * I got to know how to do and fix favicon.
 
 * [404 Page](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site/)
     * I got to know how to do 404 page.
+
+* [Warning from JSHint Using Const](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
+    * I got to know how to fix the warning of 30 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
 
 * Inspired some of the codes from Love Project Math.
