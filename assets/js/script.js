@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // game variables
 var choices = ["rock", "scissors", "paper"];
 

@@ -26,9 +26,12 @@ Rock Scissor Paper Game is a well known game that all people knows about it. The
 
 * Section Aginst
     * Section aginst is there to help the user to see the option choisen and what the computer choose at the same time.
+    * Section aginst at the start will not show any emoji tell the player select an option.
     * Section aginst will help users to keep track on choices.
 
 ![Section Aginst](docs/readme_images/section_aginst.jpg)
+
+![Section Aginst](docs/readme_images/section_aginst_2.jpg)
 
 
 * Section Options
@@ -38,18 +41,18 @@ Rock Scissor Paper Game is a well known game that all people knows about it. The
 
 
 ![Section Options](docs/readme_images/section_options.jpg)
-* Rules Button
-    * This button is designed to inform the user on how the game works.
-    * Once the button clicked the user will get message as the image shows below.
 
-![Rules Button](docs/readme_images/rules_button.jpg)
-
-![Rules Button Alert](docs/readme_images/rules_button_alert.jpg)
 * Restart Button
-    * HThis button will let the user start the game from the begining.
+    * This button will let the user start the game from the begining.
     
 
-![Restart Button](docs/readme_images/restart_button.jpg)    
+![Restart Button](docs/readme_images/restart_button.jpg) 
+
+* Footer
+    * This section has the rules of the game
+    
+
+![Rules Button](docs/readme_images/rules.jpg)
 
 
 
@@ -139,11 +142,11 @@ Manual tests were also performed to ensure the website was accessible as possibl
 
 
 
-**Rules and Restart buttons**
+**Restart button**
 
-* Testing was performed on the rules button and it returend with alreat text explainging the rules of the game as expected.
+* Testing was performed on the restart button and it worked as expected to start the game from over and reset all the elements.
 
-* Testing was performed on the restart button and it worked as expected to start the game from over
+![Restart Test](docs/testing/restart_test.jpg) 
 
 ### Validator Testing 
 
