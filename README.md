@@ -54,6 +54,13 @@ Rock Scissor Paper Game is a well known game that all people knows about it. The
 
 ![Rules Button](docs/readme_images/rules.jpg)
 
+### 404 Page
+    * This page is a custom 404 page which is an error page that a website displays when a user tries to access a page that doesn't exist.
+    * There is Navigation link which will take the user to the right page of the game.
+
+![404 Page](docs/readme_images/404_page.jpg)
+
+
 
 
 ### Existing Features
@@ -216,9 +223,19 @@ Manual tests were also performed to ensure the website was accessible as possibl
 
 ### Bugs
 
-  - The backgrounf color was not full on all the page as i wrote the code in the body instead of * which target all the page.
-  - Color contrast for the rest and the rule button was not as expected so I changed it to better one.
-  - Buttion id rock was dublicated so I fixed it with the coreect input.
+  - The background color was not full on all the page as I wrote the code in the body instead of * which target all the page.
+  - Button id rock was dublicated so I fixed it with the coreect input.
+  - While testing notice it that the scissors was not finctionally working, it was due to typo I missed the s in the car choices, but 
+    now its fixed.
+  - While testing notice it that the player only wins if the player select paper but for scissors and rock was not the case. It was  
+    typo mistake for the scissors in the JavaScript in game function fixed it and all the options are working now.
+  - Color scheme was not giving good contrast. Fixed it with light colors
+  - Favicon was not working when the webiste was deployed, fixed it by adding link in index.html.
+  - When I reset the game it was not resetting the result, emoji status and the text for start, so I fixed that by updating the rest 
+    function in Java Script.
+  - When user tries to navigate to other page it was naviagting to nothing, so I created 404.html to fix this issue.
+
+
   
 
 ## Deployment
