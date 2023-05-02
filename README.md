@@ -279,8 +279,14 @@ The project will now of been cloned on your local machine for use.
 
 ### Content
 
-* [Making Space]( https://mailtrap.io/blog/nbsp/)
+* [Making Space](https://mailtrap.io/blog/nbsp/)
     * I got to know how to make space by using (&nbsp) in HTML.
+
+* [favicon](https://www.w3schools.com/html/html_favicon.asp)
+    * I got to know how to do and fix favicon.
+
+* [404 Page](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site/)
+    * I got to know how to do 404 page.
 
 
 * Inspired some of the codes from Love Project Math.
