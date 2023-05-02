@@ -6,46 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Best Rock Scissor Paper Game in Sweden ">
 
-    
-
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Scissor Paper Game</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+    <!-- Main body container -->
     <div class="body">
 
+        <!-- Container for the title and game score -->
         <div class="box-text">
+            <!-- The game title -->
             <div class="title-text">
                 Rock Scissor Paper Game
             </div>
 
-
+            <!-- The start message container -->
             <div class="start">
                 <p class="text-start">
                     Battle Will Start Now
                 </p>
             </div>
 
-
+            <!-- The container for displaying the game score -->
             <div class="result-text">
+                <!-- The user's score -->
                 <span class="result-user">0</span>
                 &nbsp; : &nbsp;
+                <!-- The computer's score -->
                 <span class="result-comp">0</span>
-
 
             </div>
         </div>
 
+        <!-- Container for the player's options -->
         <div class="section-aginst">
+            <!-- Label for the player's option -->
             <span class="player">Me</span>
+            <!-- Button for the player's option -->
             <div id="choice-me" class="button-aginst">-</div>
 
+            <!-- Button for the computer's option -->
             <div id="choice-comp" class="button-aginst">-</div>
+            <!-- Label for the computer's option -->
             <span class="player">Computer</span>
             </div>
 
+            <!-- Container for the game options -->
             <div class="section-options">
+                <!-- List of game options -->
                 <ul class="choices-option">
                     <li class="icon-rpsg"><button id="rock" onclick="game(this.value)" value="rock">✊</button></li>
                     <li class="icon-rpsg"><button id="paper" onclick="game(this.value)" value="paper">✋</button></li>
@@ -53,19 +62,20 @@
                     
                 </ul>
 
+                <!-- Container for the restart button -->
                 <ul class="button-options">
                     <li><a href="#" class="restart-button" onclick="restart()">RESTART</a></li>
                 </ul>
             </div>
          </div>
-    
+         
+    <!-- Container for the game rules -->
     <div class="footer">
         <h2>Rules</h2>
         <p>The Rules are simple for winning. The Scissors wins against The Paper, The Rock wins against The Scissors, and The Paper wins against The Rock.</p>
     </div>
-   
 
-
+    <!-- Link to the external JavaScript file -->   
     <script src="assets/js/script.js"></script>
 </body>
 </html>
