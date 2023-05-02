@@ -136,9 +136,54 @@ Manual tests were also performed to ensure the website was accessible as possibl
 
 **Game Testing**
 
-* Tried to click on the rock and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the copmuter wins its gives text that computer wins!, and incase it was tie it gives the right text.
-* Tried to click on the paper and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
-* Tried to click on the scissor and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
+* Tried to click on the rock, and it worked as expected with no return erros. 
+
+    -Incase the user win it reflect the results and it gives text that you win!.
+
+    ![Rock User Win](docs/testing/rock_player_win.jpg)
+
+
+    -Incase the computer wins it reflect the results and it gives text that computer wins! 
+
+    ![Rock Computer Win](docs/testing/rock_computer_win.jpg)
+
+
+    -Incase it was tie it reflect the results and it gives text that its a tie.
+
+    ![Rock Tie](docs/testing/rock_tie.jpg)
+
+
+* Tried to click on the paper, and it worked as expected with no return erros. 
+
+    -Incase the user win it reflect the results and it gives text that you win!.
+
+    ![Paper User Win](docs/testing/paper_player_win.jpg)
+
+
+    -Incase the computer wins it reflect the results and it gives text that computer wins! 
+
+    ![Paper Computer Win](docs/testing/paper_computer_win.jpg)
+
+
+    -Incase it was tie it reflect the results and it gives text that its a tie.
+
+    ![Paper Tie](docs/testing/paper_tie.jpg)
+
+* Tried to click on the scissors, and it worked as expected with no return erros. 
+
+    -Incase the user win it reflect the results and it gives text that you win!.
+
+    ![Scissors User Win](docs/testing/scissors_player_win.jpg)
+
+
+    -Incase the computer wins it reflect the results and it gives text that computer wins! 
+
+    ![Scissors Computer Win](docs/testing/scissors_computer_win.jpg)
+
+
+    -Incase it was tie it reflect the results and it gives text that its a tie.
+
+    ![Scissors Tie](docs/testing/scissors_tie.jpg)
 
 
 
