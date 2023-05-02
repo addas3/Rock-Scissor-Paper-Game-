@@ -136,7 +136,7 @@ Manual tests were also performed to ensure the website was accessible as possibl
 
 **Game Testing**
 
-* Tried to click on the rock and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
+* Tried to click on the rock and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the copmuter wins its gives text that computer wins!, and incase it was tie it gives the right text.
 * Tried to click on the paper and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
 * Tried to click on the scissor and it worked as expected with no return erros. Incase the user win it gives text that you win!, incase the coputer wins its gives text that computer wins!, and incase it was tie it gives the right text.
 
