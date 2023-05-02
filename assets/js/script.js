@@ -62,3 +62,14 @@ function restart(){
     document.querySelector(".text-start").innerHTML = "Battle Will Start Now";
     
 }
+
+// call the game() function when the user clicks on a choice button
+document.querySelectorAll(".choice").forEach(function(button) {
+    button.addEventListener("click", function() {
+      game(button.getAttribute("data-choice"));
+    });
+  });
+  
+// call the restart() function when the user clicks on the "restart" button
+document.querySelector(".btn-restart").addEventListener("click", restart);
+  
